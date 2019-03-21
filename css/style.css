@@ -1,0 +1,343 @@
+#top{
+font-family: 'Open Sans', serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	font-weight: 400;
+	width: 100% !important;
+	height: 100% !important;
+	
+}
+
+.abc{
+	background-color:black !important;
+}
+
+#ul1{
+	float: none;
+    display: inline-block;
+
+}
+
+#menu #ul1 > li > a:hover {
+	color: #d43031;
+}
+#menu #ul1 > li > a {
+	color: white;
+	padding:5px 0;
+	margin:0 40px;
+	font-size:15px;
+	font-weight:400px;
+	letter-spacing: 5px;
+}
+
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.intro .overlay {
+	background: rgba(0,0,0,0.4);
+}
+
+.navbar-collapse {
+	text-align:center;
+}
+
+#menu {
+	background-color:transparent;
+	border-color:transparent;
+	padding:20px;
+}
+
+.intro-text {
+	padding:200px 0 50px 0;
+	text-align:center;
+}
+
+.intro .intro-text h1{
+	font-family:'Rochester', cursive;
+	color:white;
+	font-size:10em;
+	font-weight:400;
+	
+}
+
+.intro .intro-text p {
+	font-size: 24px;
+	margin-top:150px;
+	color:white;
+}
+
+.specials {
+	text-align:center;
+}
+
+#features{
+	padding:150px 0;
+}
+
+.specials h1{
+	color:black;
+	position:relative;
+}
+
+ .specials hr{
+	 width:100px;
+	 border: 2px solid red;
+
+}
+
+.items h1, p{
+	text-align:center;
+}
+
+.foodimg{
+	width:100%;
+}
+
+.aboutimg {
+background:url('../img/gallery-bg.jpg') center center no-repeat;
+height:570px;
+background-size: cover;
+}
+
+.about hr{
+	width:80px;
+	border: 2px solid red;
+	float:left;
+	display:block;
+}
+
+.about .p1{
+	margin-top:100px;
+	text-align:left;
+	line-height:25px;
+}
+
+.about .p2{
+	margin-top:30px;
+	text-align:left;
+	line-height:25px;
+}
+
+.about{
+	padding:80px 0;
+}
+
+.menu1{
+	text-align:center;
+	margin-bottom:80px;
+}
+
+.menu1 hr{
+	width:50px;
+	border:2px solid red;
+}
+
+.breakfast{
+	text-align:center;
+	margin-bottom:50px;
+}
+
+.breakfast hr{
+	width:100px;
+	border:2px solid red;
+}
+
+.skewers{
+	margin-top:0;
+}
+
+.price{
+	font-size:24px;
+}
+
+.des {
+	text-align:left;
+	margin-bottom:50px;
+}
+
+.photos{
+	padding:0 !important;
+	margin:0 !important;
+}
+
+.photos2{
+	margin:0 !important;
+	padding-top:50px;
+}
+
+.photos2 img{
+	width:100%;
+	
+}
+
+#resturant-menu{
+ padding:0 !important;	
+}
+
+.img2{
+	padding:0 !important;
+}
+
+.chef1{
+	text-align:left;
+	margin-top:0;
+	
+}
+.chef2{
+	text-align:left;
+    margin-top:90px;
+}
+
+.chef3{
+	width:80px;
+	border:2px solid red;
+	float:left;
+	margin-left:100px;
+	
+}
+
+.chef4{
+	text-align:left;
+}
+
+
+.chefo2 img{
+	width:100%;
+}
+
+#team{
+	padding:80px 0;
+}
+
+#contact{
+	background-color:#333;
+	padding-bottom:50px;
+}
+
+.con1 {
+	padding-top:100px;
+}
+
+.res h3{
+	text-align:center;
+}
+
+.res hr{
+	width:80px;
+	border:2px solid red;
+}
+
+.send h3{
+	text-align:center;
+}
+
+.send hr{
+	width:70px;
+	border:2px solid red;
+}
+
+.sendo{
+	padding-top:100px;
+}
+
+.form-control{
+	width:100%;
+	color:#ccc;
+	background-color:rgba(255,255,255,.2) !important;
+}
+
+.area{
+	padding: 0 15px;
+}
+
+.but{
+	text-align:center;
+}
+
+.btn-custom{
+	text-transform: uppercase !important;
+    color: #777 !important;
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    padding: 14px 20px !important;
+    margin: 0 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.5px !important;
+    border-radius: 0 !important;
+    margin-top: 20px !important;
+    transition: all 0.3s !important;
+}
+
+.btn-custom:hover{
+	background-color:red !important;
+	color:white !important;
+}
+
+#footer{
+	background-color:black;
+}
+
+.foot{
+	padding:35px 10px;
+}
+
+.copy p{
+	margin:0;
+}
+
+.icon i.fa{
+   font-size:30px;
+   margin-right:20px;
+}
+.icon a{
+	color:#888;
+}
+.icon a:hover{
+	color:white;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus{
+	color:red !important;
+	background-color:transparent !important;
+}
+
+#nav1 li ul{
+	color:white;
+	float:left;
+	text-align:left;
+}
+
+#nav1 li ul a{
+	color:white;
+}
+
+#name{
+	color:white !important;
+}
+#email{
+	color:white !important;
+}
+#message{
+	color:white !important;
+}
+
+.morefood{
+	display: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color:transparent !important;
+}
+.navbar-toggle{
+	color:white;
+}
